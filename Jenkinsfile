@@ -2,8 +2,8 @@
 
 config runtime: 'node'
   
-plugins analytics : [disabled: true, logLevel: debug] ,
-        foobar : [test : true]
+plugins (analytics : [disabled: true, logLevel: debug] ,
+        foobar : [test : true])
 
 osio {
   
