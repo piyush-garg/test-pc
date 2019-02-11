@@ -4,7 +4,7 @@ osio {
 
   config runtime: 'node'
   
-  plugin analytics : [disabled: true, logLevel: debug],
+  plugins analytics : [disabled: true, logLevel: debug],
           foobar : [test : true]
 
   ci {
