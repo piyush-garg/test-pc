@@ -1,8 +1,11 @@
-@Library('github.com/fabric8io/osio-pipeline@master') _
+@Library('github.com/piyush1594/osio-pipeline@iss_74_2') _
 
 osio {
 
   config runtime: 'node'
+  
+  plugins analytics : [disabled: true, logLevel: debug]
+          foobar : [test : true]
 
   ci {
 
