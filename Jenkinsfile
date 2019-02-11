@@ -6,6 +6,8 @@ osio {
   
   plugins analytics : [disabled: true, logLevel: debug],
           foobar : [test : true]
+  
+  echo "${plugins.values()}"
 
   ci {
 
