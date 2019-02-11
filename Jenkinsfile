@@ -1,11 +1,11 @@
 @Library('github.com/piyush1594/osio-pipeline@iss_74_2') _
 
-osio {
-
-  config runtime: 'node'
+config runtime: 'node'
   
-  plugins analytics : [disabled: true, logLevel: debug],
-          foobar : [test : true]
+plugins analytics : [disabled: true, logLevel: debug] ,
+        foobar : [test : true]
+
+osio {
   
   echo "${plugins.values()}"
 
