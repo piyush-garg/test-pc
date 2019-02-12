@@ -2,7 +2,7 @@
 
 config runtime: 'node'
   
-plugins analytics : ["logLevel": "info"], foobar : ["verbosity" : true]
+//plugins analytics : ["logLevel": "info"], foobar : ["verbosity" : true]
 
 osio {
 
