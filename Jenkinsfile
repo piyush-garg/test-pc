@@ -7,7 +7,9 @@ plugins analytics : ["disabled": true, "logLevel": "info"] ,
 
 osio {
   
-  echo "${plugins.values()}"
+  echo "${plugins.config("analytics")}"
+  
+  echo "${plugins.config("foobar")}"
 
   ci {
 
