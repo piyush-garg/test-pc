@@ -7,10 +7,6 @@ config runtime: 'node'
 //plugins foobar : ["verbosity" : true]
 
 osio {
-  
-  echo "${plugins.config("analytics")}"
-  
-  echo "${plugins.config("foobar")}"
 
   ci {
 
