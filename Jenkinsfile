@@ -2,9 +2,9 @@
 
 config runtime: 'node'
   
-plugins analytics : ["disabled": true, "logLevel": "info"]
+//plugins analytics : ["disabled": true, "logLevel": "info"]
 
-plugins foobar : ["verbosity" : true]
+//plugins foobar : ["verbosity" : true]
 
 osio {
   
