@@ -1,4 +1,4 @@
-@Library('github.com/piyush1594/osio-pipeline@iss_74_2') _
+@Library('github.com/piyush1594/osio-pipeline@iss_74') _
 
 config runtime: 'node'
   
