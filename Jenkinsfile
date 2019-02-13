@@ -1,8 +1,8 @@
-@Library('github.com/piyush1594/osio-pipeline@iss_74') _
+@Library('github.com/piyush1594/osio-pipeline@iss_74_2') _
 
 config runtime: 'node'
   
-//plugins analytics : ["logLevel": "info"], foobar : ["verbosity" : true]
+plugins analytics : ["disabled" : true]
 
 osio {
 
