@@ -1,4 +1,4 @@
-@Library('github.com/hrishin/osio-pipeline@osio-fix') _
+@Library('github.com/hrishin/osio-pipeline@runtest-fix') _
 
 config runtime: 'node'
   
